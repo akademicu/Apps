@@ -17,8 +17,17 @@
         android:layout_centerVertical="true"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view"
+        android:layout_below="@+id/countriesButton"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/countriesButton"
+        android:onClick="goToCountries"
+        android:text="@string/go_to_counties"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
